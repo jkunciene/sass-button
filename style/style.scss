@@ -4,8 +4,27 @@
 }
 body{
     height: 100vh;
-    background-color: rgba(188, 176, 199, 0.934);
+    background-color: rgba(169, 99, 233, 0.934);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+button{
+    text-transform: uppercase;
+    padding: 10px 15px;
+    font-size: 3rem;
+    font-weight: 600;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: 0.5s linear 0.5s;
+
+    &:hover{
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.281),
+      0 0 40px rgba(255, 255, 255, 0.363), 0 0 80px rgba(255, 255, 255, 0.342);
+        color: rgb(163, 216, 219);
+        background-color: rgb(97, 76, 93);
+        border-radius: 5px;
+    }
 }
